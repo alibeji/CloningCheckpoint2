@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid" id="first-row">
+		<div class="row">
+			<div class="col-md-2">
+				<H2>Elements</H2>				
+			</div>
+			<div class="col-md-5">
+				<h2>Code</h2>
+			</div>
+			<div class="col-md-5">
+				<h2>Preview</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 box" id="butbox">
+				<div class="container-fluid" id="elemtitle"><h3>Most Used</h3></div>
+				<br><button class="actbut" id="addtitle" onclick="addTitle()">Titre</button>
+				<br><button class="actbut" onclick="addPar()">Paragraphe</button>
+				<br><button class="actbut" onclick="addOl()">Liste Ordonnée</button>
+				<br><button class="actbut" onclick="addUl()">Liste non ordonnée</button>
+				<br><button class="actbut" onclick="addImg()">Image</button>
+				<br><button class="actbut" onclick="addVid()">Video</button>
+				<br><button class="actbut" onclick="addLink()">Lien</button>
+				<br><button class="actbut" onclick="addAud()">Audio</button>
+				<br><button class="actbut" onclick="addForm()">Formulaire</button>
+			</div>
+			<div class="col-md-5 box">
+				<div>&lt;p&gt;</div>
+						<p id="edit1" onclick="edit()">Anime is a style of hand-drawn and computer animation originating in, and commonly associated with, Japan.</p><div>&lt;/p&gt;</div>
+				<p id="code">
+						
+				</p>
+			</div>
+			<div class="col-md-5 box">
+			<div id="edit2">Anime is a style of hand-drawn and computer animation originating in, and commonly associated with, Japan.</div><br>
+				<p id="prev">
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>

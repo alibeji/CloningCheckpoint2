@@ -1,0 +1,36 @@
+#first-row{
+	background-color: #52565E;
+	color: white;
+	text-align: center;
+}
+
+.box {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 2300px;
+}
+
+#butbox{
+	background-color: #CACCD1;
+}
+
+.actbut{
+	background-size: cover;
+	border:none;
+	width: 100%;
+	padding:5px 0 5px 0;
+}
+
+.actbut:hover{
+	background-color: #52565E;
+	color:white;
+}
+
+#prev{
+	font-family: "lato";
+}
+
+li{
+	margin-left: 30px;
+}
